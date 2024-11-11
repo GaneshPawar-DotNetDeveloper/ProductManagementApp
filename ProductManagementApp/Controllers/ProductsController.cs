@@ -43,7 +43,7 @@ namespace ProductManagementApp.Controllers
                 return NotFound();
             }
 
-            return View(product);
+            return View(product); ;
         }
         private string GenerateSKU()
         {
