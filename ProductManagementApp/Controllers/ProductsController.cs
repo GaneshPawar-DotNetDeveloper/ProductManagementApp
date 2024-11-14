@@ -12,8 +12,10 @@ namespace ProductManagementApp.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly ApplicationDbContext _context;
+       // private readonly ApplicationDbContext _context;
         private readonly IProductRepository _productRepository;
+
+        private readonly ApplicationDbContext _context;
 
         public ProductsController(ApplicationDbContext context)
         {
